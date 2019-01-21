@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 .thenAnimate(imageView)
                 .scale(0.02f, 1.4f, 0.02f)
                 .rotation(360)
-                .repeatCount(6)
+                .repeatCount(5)
                 .accelerate()
                 .duration(5000)
                 .onStop(new AnimationListener.Stop() {
