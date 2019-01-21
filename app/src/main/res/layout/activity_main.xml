@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/lotusImage"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_centerInParent="true"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/breathsTakenTxt"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="72dp"
+        android:text="7 Breaths"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:text="7 Breaths" />
+
+    <TextView
+        android:id="@+id/lastBreathTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="98dp"
+        android:text="19:0 PM"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:text="19:0 PM" />
+
+    <TextView
+        android:id="@+id/todayMinTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="124dp"
+        android:text="4 min today"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/OneMinuteTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="36dp"
+        android:text="1 MIN"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        tools:text="1 MIN" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorAccent"
+        android:text="START"
+        android:textColor="@android:color/background_light"
+        tools:text="Start" />
+
+    <TextView
+        android:id="@+id/guideTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:gravity="center"
+        android:text="breathe"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
